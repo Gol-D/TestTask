@@ -9,23 +9,41 @@
 /* Begin PBXBuildFile section */
 		DE08ABBC274CDDC500C4302A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE08ABBB274CDDC500C4302A /* AppDelegate.swift */; };
 		DE08ABBE274CDDC500C4302A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE08ABBD274CDDC500C4302A /* SceneDelegate.swift */; };
-		DE08ABC0274CDDC500C4302A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE08ABBF274CDDC500C4302A /* ViewController.swift */; };
+		DE08ABC0274CDDC500C4302A /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE08ABBF274CDDC500C4302A /* ListViewController.swift */; };
 		DE08ABC3274CDDC600C4302A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE08ABC1274CDDC600C4302A /* Main.storyboard */; };
 		DE08ABC6274CDDC600C4302A /* ITFrogTestTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE08ABC4274CDDC600C4302A /* ITFrogTestTask.xcdatamodeld */; };
 		DE08ABC8274CDDC700C4302A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE08ABC7274CDDC700C4302A /* Assets.xcassets */; };
 		DE08ABCB274CDDC700C4302A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE08ABC9274CDDC700C4302A /* LaunchScreen.storyboard */; };
+		DE08ABD3274CE80600C4302A /* SelectionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE08ABD2274CE80600C4302A /* SelectionListViewController.swift */; };
+		DE08ABD5274CE87100C4302A /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE08ABD4274CE87100C4302A /* CollectionViewCell.swift */; };
+		DE08ABD7274CF5C800C4302A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE08ABD6274CF5C800C4302A /* TableViewCell.swift */; };
+		DE19F1BC274FE090006EEC7B /* ListsCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE19F1BB274FE090006EEC7B /* ListsCollectionViewFlowLayout.swift */; };
+		DE19F1E527511300006EEC7B /* NewListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE19F1E427511300006EEC7B /* NewListViewController.swift */; };
+		DE19F1E727511BE7006EEC7B /* CheckTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE19F1E627511BE7006EEC7B /* CheckTableViewCell.swift */; };
+		DE5F5C9027551BA2008CBFEA /* List+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F5C8E27551BA2008CBFEA /* List+CoreDataClass.swift */; };
+		DE5F5C9127551BA2008CBFEA /* List+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F5C8F27551BA2008CBFEA /* List+CoreDataProperties.swift */; };
+		DEF1A5292752129C00C976C3 /* ColorsPaletteCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF1A5282752129C00C976C3 /* ColorsPaletteCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DE08ABB8274CDDC500C4302A /* ITFrogTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ITFrogTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE08ABBB274CDDC500C4302A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE08ABBD274CDDC500C4302A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DE08ABBF274CDDC500C4302A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE08ABBF274CDDC500C4302A /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		DE08ABC2274CDDC600C4302A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE08ABC5274CDDC600C4302A /* ITFrogTestTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ITFrogTestTask.xcdatamodel; sourceTree = "<group>"; };
 		DE08ABC7274CDDC700C4302A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE08ABCA274CDDC700C4302A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE08ABCC274CDDC700C4302A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE08ABD2274CE80600C4302A /* SelectionListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionListViewController.swift; sourceTree = "<group>"; };
+		DE08ABD4274CE87100C4302A /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		DE08ABD6274CF5C800C4302A /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		DE19F1BB274FE090006EEC7B /* ListsCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		DE19F1E427511300006EEC7B /* NewListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewListViewController.swift; sourceTree = "<group>"; };
+		DE19F1E627511BE7006EEC7B /* CheckTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckTableViewCell.swift; sourceTree = "<group>"; };
+		DE5F5C8E27551BA2008CBFEA /* List+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "List+CoreDataClass.swift"; sourceTree = "<group>"; };
+		DE5F5C8F27551BA2008CBFEA /* List+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "List+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		DEF1A5282752129C00C976C3 /* ColorsPaletteCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsPaletteCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +78,10 @@
 			children = (
 				DE08ABBB274CDDC500C4302A /* AppDelegate.swift */,
 				DE08ABBD274CDDC500C4302A /* SceneDelegate.swift */,
-				DE08ABBF274CDDC500C4302A /* ViewController.swift */,
+				DE5F5C5D27539A49008CBFEA /* CoreData */,
+				DE19F1EA27516DE4006EEC7B /* List */,
+				DE19F1EB27516E14006EEC7B /* SelectionList */,
+				DE19F1EC27516E67006EEC7B /* CreateList */,
 				DE08ABC1274CDDC600C4302A /* Main.storyboard */,
 				DE08ABC7274CDDC700C4302A /* Assets.xcassets */,
 				DE08ABC9274CDDC700C4302A /* LaunchScreen.storyboard */,
@@ -68,6 +89,44 @@
 				DE08ABC4274CDDC600C4302A /* ITFrogTestTask.xcdatamodeld */,
 			);
 			path = ITFrogTestTask;
+			sourceTree = "<group>";
+		};
+		DE19F1EA27516DE4006EEC7B /* List */ = {
+			isa = PBXGroup;
+			children = (
+				DE08ABBF274CDDC500C4302A /* ListViewController.swift */,
+				DE08ABD6274CF5C800C4302A /* TableViewCell.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		DE19F1EB27516E14006EEC7B /* SelectionList */ = {
+			isa = PBXGroup;
+			children = (
+				DE19F1BB274FE090006EEC7B /* ListsCollectionViewFlowLayout.swift */,
+				DE08ABD4274CE87100C4302A /* CollectionViewCell.swift */,
+				DE08ABD2274CE80600C4302A /* SelectionListViewController.swift */,
+			);
+			path = SelectionList;
+			sourceTree = "<group>";
+		};
+		DE19F1EC27516E67006EEC7B /* CreateList */ = {
+			isa = PBXGroup;
+			children = (
+				DE19F1E427511300006EEC7B /* NewListViewController.swift */,
+				DEF1A5282752129C00C976C3 /* ColorsPaletteCollectionViewCell.swift */,
+				DE19F1E627511BE7006EEC7B /* CheckTableViewCell.swift */,
+			);
+			path = CreateList;
+			sourceTree = "<group>";
+		};
+		DE5F5C5D27539A49008CBFEA /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				DE5F5C8E27551BA2008CBFEA /* List+CoreDataClass.swift */,
+				DE5F5C8F27551BA2008CBFEA /* List+CoreDataProperties.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +200,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE08ABC0274CDDC500C4302A /* ViewController.swift in Sources */,
+				DE5F5C9127551BA2008CBFEA /* List+CoreDataProperties.swift in Sources */,
+				DE08ABC0274CDDC500C4302A /* ListViewController.swift in Sources */,
+				DE08ABD3274CE80600C4302A /* SelectionListViewController.swift in Sources */,
+				DE19F1BC274FE090006EEC7B /* ListsCollectionViewFlowLayout.swift in Sources */,
+				DE19F1E527511300006EEC7B /* NewListViewController.swift in Sources */,
+				DEF1A5292752129C00C976C3 /* ColorsPaletteCollectionViewCell.swift in Sources */,
+				DE08ABD5274CE87100C4302A /* CollectionViewCell.swift in Sources */,
 				DE08ABC6274CDDC600C4302A /* ITFrogTestTask.xcdatamodeld in Sources */,
+				DE5F5C9027551BA2008CBFEA /* List+CoreDataClass.swift in Sources */,
+				DE19F1E727511BE7006EEC7B /* CheckTableViewCell.swift in Sources */,
 				DE08ABBC274CDDC500C4302A /* AppDelegate.swift in Sources */,
+				DE08ABD7274CF5C800C4302A /* TableViewCell.swift in Sources */,
 				DE08ABBE274CDDC500C4302A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
