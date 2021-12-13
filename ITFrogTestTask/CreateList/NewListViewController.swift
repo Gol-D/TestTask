@@ -20,6 +20,9 @@ class NewListViewController: UIViewController, UITableViewDelegate, UITableViewD
     
     var list = ["Париж":"III век до н. э.", "Вена":"1147 год", "Берлин":"1237 год", "Варшава":"1321 год", "Милан":"1899 год"]
     
+    var listSettings = List()
+    
+    
     var shortName: String = ""
     var longName: String = ""
     var colors: UIColor?
@@ -35,7 +38,6 @@ class NewListViewController: UIViewController, UITableViewDelegate, UITableViewD
         checkTableView.allowsMultipleSelection = true
         checkTableView.allowsMultipleSelectionDuringEditing = true
     }
-
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
